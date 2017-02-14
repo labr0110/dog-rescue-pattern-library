@@ -19,6 +19,8 @@
             <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#brand">Brand</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
           </ul>
         </nav>
       </div>
@@ -249,6 +251,159 @@
         <div class="gutter">
           <iframe  src="patterns/grid/1-grid-sizes.html" onload="resizeIframe(this)"></iframe>
         </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="modules">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Modules</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#modules-list-group">List group</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#modules-embed">Embed</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#modules-media-object">Media object</a></li>
+          </ol>
+        </nav>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p><a href="https://modulifier.web-dev.tools">Modulifier</a> generates a series of simple, default CSS components that can be used throughout the site, or as basic building blocks for more complex patterns.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="modules-list-group">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">List group</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The list group system provides two classes: one for a vertical, stacking group of list items; and another for a horizontal, side-by-side group of list items.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/modules/1-list-group.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;ul class="list-group"&gt;
+  &lt;li>List item 1&lt;/li>
+  &lt;li>List item 2&lt;/li>
+  &lt;li>List item 3&lt;/li>
+  &lt;li>List item 4&lt;/li>
+&lt;/ul>
+
+&lt;ul class="list-group-inline">
+  &lt;li>List item 1&lt;/li>
+  &lt;li>List item 2&lt;/li>
+  &lt;li>List item 3&lt;/li>
+  &lt;li>List item 4&lt;/li>
+&lt;/ul>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="modules-embed">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Embed</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>Embed containers should be used for all content images, enforcing aspect ratios but also giving browsers a placeholder for the graphic before it loads to prevent unnecessary text reflows.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/modules/2-embed.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="embed embed-16by9"&gt;
+  &lt;img class="embed-item" src="placeholder-16by9.svg" alt="">
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="modules-media-object">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Media object</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>A simple pattern that provides and image beside some text—good for comments with avatars and many other situations. Will usually be combined into larger patterns.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/modules/3-media-object.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="media"&gt;
+  &lt;div class="media-img">
+    &lt;img src="placeholder-1by1.svg" alt="">
+  &lt;/div>
+  &lt;div class="media-body">
+    &lt;p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="buttons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Buttons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The buttons use our primary colour to draw attention and stand out. Each button has a specific purpose:</p>
+<ul>
+<li>The regular buttons are for cards, forms and where the background is a light colour.</li>
+<li>The light buttons are for dark background areas.</li>
+<li>The ghost buttons should be used exclusively on banners where the background is an image.</li>
+</ul>
+<p>Feel free to mix them with the &quot;font-size&quot; classes to make different sizes of buttons.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="buttons-buttons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/buttons/buttons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;a class="btn" href="#"&gt;Standard Button&lt;/a>
+&lt;a class="btn btn-light" href="#">Light button&lt;/a>
+&lt;a class="btn btn-ghost" href="#">Ghost button&lt;/a>
+</pre></code>
+            </div>
+          </div>
       </div>
     </div>
 
