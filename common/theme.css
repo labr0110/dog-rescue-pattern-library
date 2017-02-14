@@ -1,9 +1,8 @@
 :root {
   --color-primary: #f1f1f1;
-  --color-secondary: #000000;
+  --color-secondary: #000;
   --color-accent: #67d8ff;
   --color-accent-light: #beeffc;
-
 
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Dosis", sans-serif;
