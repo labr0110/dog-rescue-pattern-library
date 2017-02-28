@@ -9,7 +9,7 @@ a:hover {
   color: #fff;
 }
 
-a:before {
+a::before {
   content: "";
   position: absolute;
   width: 65%;
@@ -18,11 +18,11 @@ a:before {
   left: 18%;
   background-color: #fff;
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
-a:hover:before {
+a:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -41,10 +41,9 @@ a:hover:before {
   border-color: var(--color-accent);
 }
 
-
 .btn-light {
   background-color: var(--color-accent-light);
-  border-color: #fff;;
+  border-color: #fff;
   color: #fff;
 }
 
@@ -63,3 +62,4 @@ a:hover:before {
   background-color: var(--color-accent-light);
   border-color: #fff;
   color: #fff;
+}
