@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Age</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="modules.css" rel="stylesheet">
+  <link href="type.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island" method="post" novalidate>
+    <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+      <h3 class="push-0">
+        <span class="icon-label">There are items that are unfilled.</span>
+      </h3>
+    </div>
+
+    <div class="gutter-1-2">
+      <label class="push-1-4" for="age">Your Age</label>
+      <select id="age">
+        <option>--Provide your age group--</option>
+        <option>18-30</option>
+        <option>30-60</option>
+        <option>60+</option>
+      </select>
+      <p class="error-message milli push-0 island-1-4" id="name-error">
+        <span>Please provide your second name.</span>
+      </p>
+    </div>
+
+    <div class="pad-t-1-2 island-1-2">
+      <button class="btn-ghost" type="submit">Send</button>
+    </div>
+  </form>
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+</body>
+</html>

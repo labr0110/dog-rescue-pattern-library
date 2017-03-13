@@ -1,0 +1,40 @@
+html {
+  font-family: "Dosis", sans-serif;
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #ededed;
+}
+
+.error-message {
+  display: none;
+  background-color: #67d8ff;
+  color: #fff;
+}
+
+.error-message-highlighted {
+  background-color: #67d8ff;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #000;
+  color: #000;
+}
+
+.btn-ghost:hover {
+  background-color: #67d8ff;
+  color: #fff;
+}

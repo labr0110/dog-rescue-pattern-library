@@ -23,6 +23,8 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#form">Form</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#hero-banner">Hero banner</a></li>
           </ul>
         </nav>
       </div>
@@ -445,7 +447,8 @@
         <nav class="pattern-nav milli">
           <ol class="list-group-inline pad-t-1-4 push-0">
               <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-basic-card">Basic card</a></li>
-              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-pattern-library">Pattern library</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-content-card">Content card</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#cards-icon-card">Icon card</a></li>
           </ol>
         </nav>
     </div>
@@ -475,7 +478,41 @@
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div class="card island-1-2"&gt;
+              <code><pre>&lt;div class="basic-card island-2 gutter-2"&gt;
+  &lt;div class="content">
+    &lt;i class="icon i-64 push">
+        &lt;img src="../../images/logo-64.svg" alt="">
+      &lt;/i>
+    &lt;h1 class="push-1-4">h2&lt;/h1>
+    &lt;p class="milli push-1 island">Lorem ipsum dolor sit amet, alii consul legendos eam eu, mei ei simul democritum. Erat vidisse suscipit ea pro, ei usu dicta ocurreret, in mel ocurreret dissentiunt. &lt;/p>
+    &lt;div>
+      &lt;a class="push btn btn-ghost" href="">Click here&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="cards-content-card">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Content card</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The content card is used to place content that&#39;s on the main page.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/content-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="content-card island-2 gutter-2"&gt;
   &lt;div class="content">
     &lt;h1 class="push-1-4">h2&lt;/h1>
     &lt;p class="milli push-1 island">Lorem ipsum dolor sit amet, alii consul legendos eam eu, mei ei simul democritum. Erat vidisse suscipit ea pro, ei usu dicta ocurreret, in mel ocurreret dissentiunt. &lt;/p>
@@ -489,35 +526,399 @@
           </div>
       </div>
     </div>
-    <div class="pattern-details push" id="cards-pattern-library">
+    <div class="pattern-details push" id="cards-icon-card">
         <div class="push">
           <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
-            <h3 class="pattern-name tera push-1-8">Pattern library</h3>
+            <h3 class="pattern-name tera push-1-8">Icon card</h3>
+          </div>
+            <div class="pattern-desc milli island">
+              <div class="max-length"><p>The icon card is used for the adoption page. Each card will have the image of the dog ready for adoption as well as its basic information.</p>
+</div>
+            </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/icon-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="icon-card island-2 gutter-2"&gt;
+  &lt;div class="content">
+    &lt;i class="icon i-64 push">
+        &lt;img src="../../images/logo-64.svg" alt="">
+      &lt;/i>
+    &lt;h1 class="push-1-4">Dog name&lt;/h1>
+    &lt;p class="milli push-1 island">Lorem ipsum dolor sit amet, alii consul legendos eam eu, mei ei simul democritum. Erat vidisse suscipit ea pro, ei usu dicta ocurreret, in mel ocurreret dissentiunt. &lt;/p>
+    &lt;div>
+      &lt;a class="push btn btn-ghost" href="">Click here&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="form">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Form</h2>
+        <nav class="pattern-nav milli">
+          <ol class="list-group-inline pad-t-1-4 push-0">
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-check-boxes">Check boxes</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-email">Email</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-inputs">Inputs</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-name-of-dog">Name of dog</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-name">Name</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-radio-buttons">Radio buttons</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-select-boxes">Select boxes</a></li>
+              <li><a class="btn btn-ghost btn-rounded gutter push-1-4 pad-t-1-8 pad-b-1-8" href="#form-text-areas">Text areas</a></li>
+          </ol>
+        </nav>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="form-check-boxes">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Check boxes</h3>
           </div>
         </div>
 
       <div class="pattern-examples">
         <div class="gutter">
-          <iframe class="push" src="patterns/cards/pattern-library.html" onload="resizeIframe(this)"></iframe>
+          <iframe class="push" src="patterns/form/check-boxes.html" onload="resizeIframe(this)"></iframe>
         </div>
           <div class="gutter">
             <div class="pattern-code milli island-1-2">
-              <code><pre>&lt;div class="wrapper"&gt;
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;span class="icon-label">There are items that are unfilled.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+  &lt;div class="gutter-1-2">
+    &lt;input type="checkbox" id="checkbox">
+    &lt;label for="checkbox">Checkbox&lt;/label>
+    &lt;p class="error-message milli push-0 island-1-4" id="name-error">
+      &lt;span>Please check the checkbox&lt;/span>
+    &lt;/p>
+  &lt;/div>
+  &lt;div class="pad-t-1-2 island-1-2">
+    &lt;button class="btn-ghost" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="form-email">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Email</h3>
+          </div>
+        </div>
 
-  &lt;header class="masthead">
-    &lt;div class="masthead-inner">
-      &lt;h1 class="tera gutter pad-t pad-b push-0">Pattern Library&lt;/h1>
-      &lt;nav class="nav mega">
-        &lt;ul class="list-group">
-          &lt;li>&lt;a class="gutter pad-t-1-4 pad-b-1-4 block" href="#brand">Brand&lt;/a>&lt;/li>
-        &lt;/ul>
-      &lt;/nav>
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/email.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;span class="icon-label">There are items that are unfilled.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+  &lt;div class="push-1-2">
+    &lt;label class="push-1-4" for="email">Email Address&lt;/label>
+    &lt;input type="email" id="email" required aria-describedby="email-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
+      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+    &lt;/p>
+  &lt;/div>
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn-ghost" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="form-inputs">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Inputs</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/inputs.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;fieldset&gt;
+  &lt;legend>Mailing Address&lt;/legend>
+
+  &lt;div>
+    &lt;label for="street-address">Street Address&lt;/label>
+    &lt;input id="street-address">
+  &lt;/div>
+  &lt;div>
+    &lt;label for="city">City&lt;/label>
+    &lt;input id="city">
+  &lt;/div>
+  &lt;div>
+    &lt;label for="country">Country&lt;/label>
+    &lt;input id="country">
+  &lt;/div>
+  &lt;div>
+    &lt;label for="postal-code">Postal Code&lt;/label>
+    &lt;input id="postal-code">
+  &lt;/div>
+&lt;/fieldset>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="form-name-of-dog">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Name of dog</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/name-of-dog.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;span class="icon-label">There are items that are unfilled.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="push-1-2 gutter-1-2">
+    &lt;label class="push-1-4" for="name">Name of dog&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli push-0 island-1-4" id="name-error">
+      &lt;span class="icon-label">Please provide a dog&apos;s name&lt;/span>
+    &lt;/p>
+  &lt;/div>
+  &lt;div class="pad-t-1-2 island-1-2">
+    &lt;button class="btn-ghost" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="form-name">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Name</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/name.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;span class="icon-label">There are items that are unfilled.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="gutter-1-2 inline-block">
+    &lt;label class="push-1-4" for="name">First Name&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli push-0 island-1-4" id="name-error">
+      &lt;span>Please provide you&apos;re first name.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+  &lt;div class="push-1-2 gutter-1-2 inline-block">
+    &lt;label class="push-1-4" for="name">Last Name&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli push-0 island-1-4" id="name-error">
+      &lt;span>Please provide your second name.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+  &lt;div class="pad-t-1-2 island-1-2">
+    &lt;button class="btn-ghost" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="form-radio-buttons">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Radio buttons</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/radio-buttons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;span class="icon-label">There are items that are unfilled.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+  &lt;div class="gutter-1-2">
+    &lt;input type="radio" id="radio">
+    &lt;label for="radio">Radio Button&lt;/label>
+    &lt;p class="error-message milli push-0 island-1-4" id="name-error">
+      &lt;span>Please check the checkbox&lt;/span>
+    &lt;/p>
+  &lt;/div>
+  &lt;div class="pad-t-1-2 island-1-2">
+    &lt;button class="btn-ghost" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="form-select-boxes">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Select boxes</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/select-boxes.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;span class="icon-label">There are items that are unfilled.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="gutter-1-2">
+    &lt;label class="push-1-4" for="age">Your Age&lt;/label>
+    &lt;select id="age">
+      &lt;option>--Provide your age group--&lt;/option>
+      &lt;option>18-30&lt;/option>
+      &lt;option>30-60&lt;/option>
+      &lt;option>60+&lt;/option>
+    &lt;/select>
+    &lt;p class="error-message milli push-0 island-1-4" id="name-error">
+      &lt;span>Please provide your second name.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="pad-t-1-2 island-1-2">
+    &lt;button class="btn-ghost" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details push" id="form-text-areas">
+        <div class="push">
+          <div class="pattern-toolbar pattern-toolbar-inner gutter pad-t-1-4 pad-b-1-4">
+            <h3 class="pattern-name tera push-1-8">Text areas</h3>
+          </div>
+        </div>
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/form/text-areas.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;form class="max-length island" method="post" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;span class="icon-label">There are items that are unfilled.&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label class="push-1-4" for="message">Message&lt;/label>
+    &lt;textarea type="message" id="message" required aria-describedby="email-error">&lt;/textarea>
+    &lt;p class="error-message milli island-1-4 push-0" id="email-error">
+      &lt;span class="icon-label">Please provide a message.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+
+  &lt;div class="pad-t-1-2">
+    &lt;button class="btn-ghost" type="submit">Send&lt;/button>
+  &lt;/div>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="hero-banner">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Hero banner</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The hero-banner provides a way for us to create an initial interest for the viewer as well as a call-to-action to a specific place on the page.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="hero-banner-hero-banner">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/hero-banner/hero-banner.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="banner island-double gutter-2"&gt;
+  &lt;div class="banner-content">
+    &lt;h1 class="push-1-4">Loyalty comes first.&lt;/h1>
+    &lt;p class="milli push-1 island">Lorem ipsum dolor sit amet, alii consul legendos eam eu, mei ei simul democritum. Erat vidisse suscipit ea pro, ei usu dicta ocurreret, in mel ocurreret dissentiunt. &lt;/p>
+    &lt;div>
+      &lt;a class="push btn btn-ghost" href="">Click here&lt;/a>
     &lt;/div>
-  &lt;/header>
-
-  &lt;main class="main">
-  &lt;/main>
-
+  &lt;/div>
 &lt;/div>
 </pre></code>
             </div>
