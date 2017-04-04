@@ -1,5 +1,5 @@
 html {
-  font-family: "Dosis", sans-serif;
+  font-family: var(--font-secondary);
 }
 
 .flag-optional {

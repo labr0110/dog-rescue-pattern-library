@@ -1,0 +1,19 @@
+.basic-card {
+  border: solid 4px var(--color-accent);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.content {
+  transition: 300ms all linear;
+}
+
+.btn {
+  color: var(--color-accent);
+  border: solid 3px var(--color-accent);
+}
+
+.basic-card {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
