@@ -1,8 +1,8 @@
-.grid {
+.grid-footer {
   background-color: var(--color-accent);
 }
 
-p {
+.copyright {
   text-align: right;
   margin: 0;
 }

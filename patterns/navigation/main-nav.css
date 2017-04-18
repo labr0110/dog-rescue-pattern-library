@@ -4,12 +4,7 @@
   list-style-type: none;
 }
 
-.btn {
-  color: #000;
-  border: none;
-}
-
-.unit {
+.unit-logo {
   padding-top: 2em;
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -37,13 +32,13 @@ img.toggle {
 .nav-label {
     position: absolute;
     right: 0.5em;
-    top: 1.7em;
+    top: 2em;
 }
 
 .nav-check:checked ~ .nav {
   display: block;
   position: absolute;
-  top: 4em;
+  top: 5em;
   right: 1em;
 }
 
@@ -61,6 +56,7 @@ img.toggle {
   .nav {
     display: block;
     position: static;
+    top: -3em;
   }
 
   .header {

@@ -36,3 +36,7 @@
 .prev-next-button:hover .arrow {
   fill: #fff;
 }
+
+.next-previous {
+  position: static;
+}

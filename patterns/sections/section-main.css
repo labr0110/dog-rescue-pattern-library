@@ -1,13 +1,11 @@
 .section-main {
   text-align: center;
-  border-top: solid 4px var(--color-accent);
   margin-left: 3em;
   margin-right: 3em;
 }
 
 .section-main-two {
   text-align: center;
-  border-bottom: solid 4px var(--color-accent);
   border-top: solid 2px var(--color-accent-light);
   margin-left: 3em;
   margin-right: 3em;

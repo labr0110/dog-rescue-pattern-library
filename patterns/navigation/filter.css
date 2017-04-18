@@ -29,14 +29,3 @@ html {
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
-
-.btn-ghost {
-  background-color: transparent;
-  border-color: #000;
-  color: #000;
-}
-
-.btn-ghost:hover {
-  background-color: #67d8ff;
-  color: #fff;
-}

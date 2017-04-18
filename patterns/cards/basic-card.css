@@ -4,11 +4,6 @@
   text-align: center;
 }
 
-.content {
+.basic-card-content {
   transition: 300ms all linear;
-}
-
-.btn {
-  color: var(--color-accent);
-  border: solid 3px var(--color-accent);
 }
