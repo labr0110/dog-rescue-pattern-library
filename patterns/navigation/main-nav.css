@@ -57,7 +57,6 @@ img.toggle {
   .nav {
     position: static;
     display: block;
-    top: -3em;
   }
 
   .header {
