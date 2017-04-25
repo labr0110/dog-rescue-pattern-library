@@ -1,6 +1,6 @@
 .gallery {
-  padding-bottom: 140px;
-  margin: 80px 80px 40px;
+  padding-bottom: 80px;
+  margin: 80px 80px 20px;
   position: relative;
 }
 
@@ -18,9 +18,8 @@
   background-color: var(--color-accent);
 }
 
-.previous { left: 10px; }
-.next { right: 10px; }
-
+.previous {left: 10px;}
+.next {right: 10px;}
 .prev-next-button svg {
   position: absolute;
   left: 20%;

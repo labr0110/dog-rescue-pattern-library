@@ -30,9 +30,9 @@ img.toggle {
 }
 
 .nav-label {
-    position: absolute;
-    right: 0.5em;
-    top: 2em;
+  position: absolute;
+  right: .5em;
+  top: 2em;
 }
 
 .nav-check:checked ~ .nav {
@@ -47,6 +47,7 @@ img.toggle {
   position: absolute;
   top: -3em;
 }
+
 @media only screen and (min-width: 60em) {
 
   label.nav-label {
@@ -54,8 +55,8 @@ img.toggle {
   }
 
   .nav {
-    display: block;
     position: static;
+    display: block;
     top: -3em;
   }
 
