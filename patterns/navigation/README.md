@@ -10,8 +10,5 @@ main-nav: |
 
 next-previous: |
   Next-previous are the buttons that are used to change to the previous and next pages on the adoption page.
-
-filter: |
-  The filter is used for the application page. It is used to filter through the different dog breeds.
 ---
 The navigations are there to help the user guide themselves through the website.
